@@ -112,12 +112,12 @@ p {
  
 }
 .bau-herren-col {
-  flex-basis: 31%;
-  background: #fff;
-  border-radius: 10px;
-  margin-bottom: 5%;
-  padding: 20px 12px;
-  box-sizing: border-box;
+  flex-basis: 28%;
+  padding: 10px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  box-shadow: 0 10px 20px 3px #492725;
+  cursor: pointer;
   transition: 0.5s;
 }
 h3 {
@@ -126,12 +126,12 @@ h3 {
   margin: 10px;
 }
 .bau-herren-col:hover {
-  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+  transform: translateY(7px);
 }
 
-@media (min-width: 700px) {
+@media (max-width: 700px) {
   .row {
-    flex-direction: row;
+    flex-direction: column;
   }
 }
 
@@ -167,14 +167,18 @@ h3 {
   background-size: cover;
   text-align: center;
   color: #fff;
-
 }
 .pro-jekt{
-  display: grid;
-  align-items: center;
+width: 80%;
+margin: auto;
+padding-top: 80px;
+padding-bottom: 50px;
 }
+.pro-jekt-col{
+  flex-basis: 48%;
+  padding: 30px 2px;
 
-
+}
 
 /*-------Refrence-------*/
 
@@ -280,7 +284,9 @@ transition: 1s;
 
 }
 /*------- kontakt uns-------*/
-
+.header1 {
+ background-image: linear-gradient(rgba(127, 129, 136, 0.7), rgba(228, 223, 218, 0.7));
+}
 .location {
   width: 80%;
   margin: auto;
