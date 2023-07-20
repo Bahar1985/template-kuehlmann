@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    <title>Kuehlmann-Projektleitung</title>
+</head>
+
+<body>
+    <section class="header">
+
+        <nav>
+            <a href="index.html"><img src="images/cropped-kuehlmann_logo-removebg-preview.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="./index.html"> HOME</a> </li>
+                    <li><a href="./projektleitung.html"> PROJEKTLEITUNG </a></li>
+                    <li><a href="./refrence.html">REFERENCE</a></li>
+                    <li><a href="./About-us.html"> ÜBER uns</a></li>
+                    <li><a href="./kontakt.html"> KONTAKT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    </section>
+
+    <!------- Bauherrenvertretung------->
+
+    <section class="bau-herren" id="home">
+        <h1>Bauherrenvertretung (individuell vereinbar) </h1>
+        <p>Besonders ist auch, dass der Projekteinstieg jederzeit möglich ist.</p>
+        <div class="row">
+            <div class="bau-herren-col">
+                <h3> wort-1</h3>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse officiis enim quod cumque eaque
+                    quos!Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse officiis enim quod cumque eaque
+                    quos!
+                </p>
+            </div>
+            <div class="bau-herren-col">
+                <h3> wort-2</h3>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse officiis enim quod cumque eaque
+                    quos!Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse officiis enim quod cumque eaque
+                    quos!
+                </p>
+            </div>
+            <div class="bau-herren-col">
+                <h3> wort-3</h3>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse officiis enim quod cumque eaque
+                    quos!Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse officiis enim quod cumque eaque
+                    quos!
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!---------Footer------->
+    <hr>
+    <section class="footer">
+        <!-- <h4> About us</h4> -->
+        <!-- <p> Diplom Ingenieur und Architekt Lutz Kühlmann ist <br> der Kopf der Kühlmann Projektleitung und
+            Bauherrenvertretung.</p> -->
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <p> Made With <i class="fa-regular fa-heart"></i> by Dci Student</p>
+    </section>
+
+
+    <!-- <script--->
+    <script>
+
+        const navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+</body>
+
+</html>
